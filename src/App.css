@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100vh;
+    /* width: 100vw; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input_img_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    
 }
 
-.App-link {
-  color: #61dafb;
+.download_wrapper{
+    transform: translate(70px, 20px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#download{
+    text-decoration: none;
+    color: black;
+}
+
+.compresser_wrapper{
+   transform: translate(70px, 20px);
+   margin-bottom: 40px;
+}
+
+#download:hover{
+    text-decoration: underline;
+    color: purple;
+}
+
+.fa-file-image-o{
+    font-size: 200px;
+}
+
+#orig_img{
+    width: 172px;
+    height: 200px;
+}
+
+#compressed_img{
+    width: 172px;
+    height: 200px;
 }
