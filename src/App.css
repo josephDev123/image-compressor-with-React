@@ -63,3 +63,10 @@ button{
     width: 172px;
     height: 200px;
 }
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color:white;
+}

@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import imageCompression from 'browser-image-compression';
 import { useState} from 'react';
+import Home from './component/Home';
+import About from './component/About';
+import {   BrowserRouter as Router,   Switch,Route, Link } from "react-router-dom";
 import './app.css';
 
 
@@ -52,6 +55,25 @@ const handleImageToCompress =()=>{
 
 return(
     <div className='container container_wrapper'>
+        <Router>
+            <nav className = 'navbar'>
+                <Link to='/'>Home</Link>
+                <Link to='/about'>About</Link>
+                <Link to='/contact'>Contact</Link>
+            </nav>
+            <Switch>
+            <Route exact path='/'>
+                <Home />
+            </Route>
+
+            <Route path='/about'>
+                <About />
+            </Route>
+
+        </Switch>
+        </Router>
+
+        
         <div className='wrapper'>
             <div className='input_img_wrapper'>
             {file? <img id='orig_img' src={url} alt='' />:<i className="fa fa-file-image-o fa-5x" aria-hidden="true"></i>}
