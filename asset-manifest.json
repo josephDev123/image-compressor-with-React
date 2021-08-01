@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/image-compressor-with-React/static/css/main.dcbcfb81.chunk.css",
+    "main.js": "/image-compressor-with-React/static/js/main.7111ca17.chunk.js",
+    "main.js.map": "/image-compressor-with-React/static/js/main.7111ca17.chunk.js.map",
+    "runtime-main.js": "/image-compressor-with-React/static/js/runtime-main.864c12de.js",
+    "runtime-main.js.map": "/image-compressor-with-React/static/js/runtime-main.864c12de.js.map",
+    "static/js/2.1b10d41a.chunk.js": "/image-compressor-with-React/static/js/2.1b10d41a.chunk.js",
+    "static/js/2.1b10d41a.chunk.js.map": "/image-compressor-with-React/static/js/2.1b10d41a.chunk.js.map",
+    "index.html": "/image-compressor-with-React/index.html",
+    "static/css/main.dcbcfb81.chunk.css.map": "/image-compressor-with-React/static/css/main.dcbcfb81.chunk.css.map",
+    "static/js/2.1b10d41a.chunk.js.LICENSE.txt": "/image-compressor-with-React/static/js/2.1b10d41a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.864c12de.js",
+    "static/js/2.1b10d41a.chunk.js",
+    "static/css/main.dcbcfb81.chunk.css",
+    "static/js/main.7111ca17.chunk.js"
+  ]
+}
